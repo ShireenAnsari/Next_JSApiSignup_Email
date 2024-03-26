@@ -29,3 +29,4 @@ const userSchema=new mongoose.Schema({
     VerifyToken:String,
     VerifyTokenExpiry:Date
 })
+
