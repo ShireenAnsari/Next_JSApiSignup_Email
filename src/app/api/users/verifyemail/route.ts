@@ -19,7 +19,7 @@ if(!user)
 }
    console.log(user)
    user.isVerified=true;
-   user.verifiyToken=undefined;
+   user.VerifyToken   =undefined;
    user.VerifyTokenExpiry=undefined
    
 await  user.save()
