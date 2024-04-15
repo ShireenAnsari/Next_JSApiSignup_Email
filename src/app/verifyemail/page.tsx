@@ -5,9 +5,6 @@ import toast from 'react-hot-toast'
 import Link from 'next/link'
 // import { useRouter } from 'next/router'
 export default function VerifyEmail() {
-    // const router=useRouter()
-    // const {query}=router
-    // const urlToken=query.token
    const [token,setToken]= useState("")
    const [verified,SetVerified]=useState(false)
    const [error,setError]=useState(false)

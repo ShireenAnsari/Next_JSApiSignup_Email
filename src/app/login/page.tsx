@@ -27,7 +27,7 @@ const LoginPage = () => {
      setloading(true)
      const res=await axios.post('/api/users/login',user)
      console.log(res.data);
-     router.push('/Login')
+     router.push('/')
 
       
     } catch (error:any) {
